@@ -9,7 +9,7 @@ __author__ = 'marmotte'
 import boto,boto.ec2
 
 # AWSリージョン情報を取得する
-#print boto.ec2-sample.regions()
+#print boto.ec2.regions()
 
 # EC2に接続する - ex. Asia Pacific(Tokyo)
 conn = boto.ec2.connect_to_region("ap-northeast-1")
